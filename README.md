@@ -29,10 +29,10 @@ To use this project,please insure that you have install these modules:
 - Download this project
 - Modify your own config in the file "uploadImage.py".
 
-        	access_key = "7E1ZYNajHehnCRrBAutgcdz3Q5T4_2bgxXq8_TnB"
-	        secret_key = "gm-Wbv8-N5NanZS-l2CuKiYvChCfBA4Evzv8DhIE"
-	        bucket_name = "orzangleli"
-	        domain_name = "7xrrni.com1.z0.glb.clouddn.com"
+        	access_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	        secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+	        bucket_name = "xxxxxxxx"
+	        domain_name = "xxxxxxxxxxxxxxxxxxxxxxx"
     
 - Open the file *main_keyListener.py* in the IDLE
 - Run the script.
