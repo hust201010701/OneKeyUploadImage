@@ -42,16 +42,12 @@ def GetNowTime():
     return time.strftime("%Y-%m-%d_%H_%M_%S",time.localtime(time.time()))
 
 def uploadImage(localfile,access_key,secret_key,bucket_name):
-        print("aaa")
         q = Auth(access_key, secret_key)
         #服务器上的文件名
         key = localfile
-        print("bbb")
         token = q.upload_token(bucket_name, key, 3600)
-        print("ccc")
         #要上传文件的本地路径
         put_file(token, key, localfile)
-        print("ddd")
         ret, info = put_file(token, key, localfile,upload_progress_recorder= UploadProgressRecorder())
         print(info)
         return key
