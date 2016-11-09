@@ -1,6 +1,5 @@
 from qiniu import *
 import qiniu.config
-import json
 from win32con import *
 import win32clipboard
 import ctypes
