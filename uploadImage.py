@@ -98,10 +98,10 @@ def upload():
     webp_path = "%s.webp"%f
     im.save(webp_path, "WEBP")
 
-    access_key = "7E1ZYNajHehnCRrBAutgcdz3Q5T4_2bgxXq8_TnB"
-    secret_key = "gm-Wbv8-N5NanZS-l2CuKiYvChCfBA4Evzv8DhIE"
-    bucket_name = "orzangleli"
-    domain_name = "7xrrni.com1.z0.glb.clouddn.com"
+    access_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    secret_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    bucket_name = "xxxxxxxx"
+    domain_name = "xxxxxxxxxxxxxxxxxxxxxxx"
     try:
         key = uploadImage(webp_path,access_key,secret_key,bucket_name)
     except Exception as e:
